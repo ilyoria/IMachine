@@ -1365,34 +1365,6 @@ public class IMachine implements OperationCodes
         } // end while
         
         System.exit( 0 );
-
-        /*compile( Paths.get( "process3.smp" ) );
-        
-        //Thread.sleep( 2000 );
-        MEMORY.putInt( 200, 53000 );
-        
-        
-        
-        welcomeToIMachine();
-        memoryDump();
-        
-        File file = new File( "process3.ima" );
-        if ( file.exists() )
-            System.out.println( "OK file" );
-        else
-            System.out.println( "NO for file" );
-        
-        loadProgram( file );
-        
-        int returnFlag = 0;
-        
-        while ( returnFlag != END_OF_PROCESS )
-        {
-            returnFlag = runNext();
-        } // end while
-        
-        memoryDump();*/
-        
     } // end main
     
 } // end class IMachine
